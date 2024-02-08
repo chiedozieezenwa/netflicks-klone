@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  background-image: url(./assets/background.png);
+  width: 100%;
+  height: 485.5px;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 56px 0 56px;
+}
+
+select {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  width: 94px;
+  height: 36px;
+  text-align: center;
+}
+
+div > img {
+  position: absolute;
+}
+
+section > nav > div > .arrow {
+  margin: 21px 87px;
+}
+
+section > nav > div > .earth {
+  margin: 21px 17px;
+}
+
+.signIn {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 84px;
+  height: 34px;
+}
+
+.signIn > a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  margin: 0;
+  height: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero > h1 {
+  width: 49%;
+  font-family: sans-serif;
+  font-size: 44px;
+  margin: 0;
+  line-height: 50px;
+}
+
+#watch {
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+#membership {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  width: 300px;
+  height: 40px;
+}
+
+form > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  background-color: red;
+  color: white;
+  border: 0;
+}
