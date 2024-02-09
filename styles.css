@@ -102,6 +102,8 @@ form {
 #email {
   width: 300px;
   height: 40px;
+  border-radius: 5px;
+  border: none;
 }
 
 form > button {
@@ -123,6 +125,7 @@ form > button {
 
 button {
   font-family: sans-serif;
+  border-radius: 5px;
 }
 
 /*----------------------------------------------Sections-------------------------------------------------------*/
@@ -292,7 +295,7 @@ footer .foot_select > .arrow {
 
 /*--------------------------------------Media Queries--------------------------------------------*/
 
-@media (max-width: 660px) {
+@media (min-width: 300px) and (max-width: 600px) {
   nav {
     width: 100%;
     display: flex;
