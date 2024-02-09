@@ -242,16 +242,9 @@ footer {
   justify-content: center;
 }
 
-.footer_items {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .list {
   display: flex;
-  margin: 0;
+  flex-direction: row;
 }
 
 .list ul li {
@@ -304,13 +297,18 @@ footer .foot_select > .arrow {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 5px;
+    margin: 5px 15px;
   }
 
   nav > div > select,
   .arrow,
   .earth {
     display: none;
+  }
+
+  .hero > h1 {
+    width: 100%;
+    padding: 0 0.8rem;
   }
 
   section {
@@ -341,6 +339,22 @@ footer .foot_select > .arrow {
     text-align: center;
   }
 
+  section > .media {
+    box-sizing: border-box;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #kids {
+    width: 300px;
+  }
+
+  #frame {
+    width: 300px;
+  }
+
   form {
     display: flex;
     flex-direction: column;
@@ -356,33 +370,9 @@ footer .foot_select > .arrow {
   .container > h1 {
     text-align: center;
   }
-}
 
-@media (min-width: 300px) and (max-width: 600px) {
-  body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-  nav {
-    margin: 5px;
-    width: 100%;
+  .list {
     display: flex;
-    justify-content: space-between;
-  }
-
-  main {
-    width: 100%;
-    height: 600px;
-  }
-
-  .hero {
-    margin: 0;
-    width: 100%;
-    height: 500px;
-  }
-
-  .hero > h1 {
-    width: 100%;
+    flex-direction: column;
   }
 }
