@@ -102,7 +102,7 @@ form {
 #email {
   width: 300px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 2px;
   border: none;
 }
 
@@ -115,6 +115,8 @@ form > button {
   background-color: red;
   color: white;
   border: 0;
+  font-family: sans-serif;
+  border-radius: 2px;
 }
 
 #email::placeholder {
@@ -123,9 +125,8 @@ form > button {
   font-weight: 700;
 }
 
-button {
-  font-family: sans-serif;
-  border-radius: 5px;
+button:hover {
+  cursor: pointer;
 }
 
 /*----------------------------------------------Sections-------------------------------------------------------*/
