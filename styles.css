@@ -191,6 +191,11 @@ section > .media > video {
   position: absolute;
 }
 
+#download {
+  width: 400px;
+  height: 250px;
+}
+
 #kids {
   width: 400px;
 }
