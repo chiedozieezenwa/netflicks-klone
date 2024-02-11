@@ -28,7 +28,7 @@ nav > .nav-right {
   gap: 1rem;
 }
 
-.nav-left > a {
+.nav-left > div > a {
   text-decoration: none;
   color: white;
   font-family: sans-serif;
@@ -194,4 +194,28 @@ footer {
 
 .foot-container > p {
   color: rgba(224, 216, 216, 0.411);
+}
+
+/* Media Queries */
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .nav-left > div > a {
+    display: none;
+  }
+
+  .nav-right {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .foot-items,
+  .left_foot_items,
+  .right_foot_items {
+    display: flex;
+    flex-direction: column;
+  }
 }
